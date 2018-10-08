@@ -15,7 +15,7 @@
     "npm": "*"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node hello-world.js",
   },
   "author": "Fabfab",
   "license": "ISC",
