@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "Hello World app",
   "main": "hello-world.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node hello-world.js",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fabfab06/hello-world.git"
-  },
-  "scripts": {
-    "start": "node hello-world.js",
   },
   "author": "Fabfab",
   "license": "ISC",
