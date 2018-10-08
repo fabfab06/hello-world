@@ -1,0 +1,19 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello World app",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabfab06/hello-world.git"
+  },
+  "author": "Fabfab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabfab06/hello-world/issues"
+  },
+  "homepage": "https://github.com/fabfab06/hello-world#readme"
+}
