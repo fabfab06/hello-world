@@ -1,15 +1,17 @@
-var http = require("http");
-
-http.createServer(function (request, response) {
-
-   // Send the HTTP header 
-   // HTTP Status: 200 : OK
-   // Content Type: text/plain
-   response.writeHead(200, {'Content-Type': 'text/plain'});
-   
-   // Send the response body as "Hello World"
-   response.end('Hello World\n');
-}).listen(8081);
-
-// Console will print the message
-console.log('Server running at http://127.0.0.1:8081/');
+var express = require('express'),
+    fs = require('fs'),
+    app = express();
+ 
+var app = express();
+ 
+var ip = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
+ 
+ 
+app.get('/', function(req, res) {
+    res.send('Hello from NodeJS  at '+ new Date());
+});
+ 
+ 
+app.listen(8080, ip);
+ 
+module.exports = app;
