@@ -4,7 +4,7 @@
   "description": "Hello World app",
   "main": "hello-world.js",
   "scripts": {
-    "start": "node hello-world.js",
+    "start": "node hello-world.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fabfab06/hello-world/issues"
   },
-  "homepage": "https://github.com/fabfab06/hello-world#readme"
+  "homepage": "https://github.com/fabfab06/hello-world#readme",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
 }
