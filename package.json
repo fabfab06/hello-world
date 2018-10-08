@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/fabfab06/hello-world.git"
   },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+  },
   "author": "Fabfab",
   "license": "ISC",
   "bugs": {
